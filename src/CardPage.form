@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CardPage">
+  <grid id="27dc6" binding="CardPagePanel" layout-manager="GridLayoutManager" row-count="4" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-791066"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="b8383" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="HGHB_CNKI" size="14"/>
+          <text value="卡号"/>
+        </properties>
+      </component>
+      <component id="63990" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="HGHB_CNKI" size="14"/>
+          <text value="姓名"/>
+        </properties>
+      </component>
+      <component id="ae8b5" class="javax.swing.JTextField" binding="卡号textField">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial Rounded MT Bold" size="14"/>
+        </properties>
+      </component>
+      <component id="42220" class="javax.swing.JTextField" binding="姓名textField">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial Rounded MT Bold" size="14"/>
+        </properties>
+      </component>
+      <component id="a65c9" class="javax.swing.JButton" binding="添加Button" default-binding="true">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2109244"/>
+          <font name="HGHB_CNKI" size="14"/>
+          <text value="添加"/>
+        </properties>
+      </component>
+      <component id="7fcb6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="HGHB_CNKI" size="14"/>
+          <text value="单位"/>
+        </properties>
+      </component>
+      <component id="882c6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="HGHB_CNKI" size="14"/>
+          <text value="类别"/>
+        </properties>
+      </component>
+      <component id="32dc3" class="javax.swing.JTextField" binding="单位textField">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial Rounded MT Bold" size="14"/>
+        </properties>
+      </component>
+      <component id="3ae96" class="javax.swing.JButton" binding="删除Button">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2109244"/>
+          <font name="HGHB_CNKI" size="14"/>
+          <text value="删除"/>
+        </properties>
+      </component>
+      <component id="ac100" class="javax.swing.JButton" binding="ExitButton">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2109244"/>
+          <font name="HGHB_CNKI" size="14"/>
+          <text value="退出"/>
+        </properties>
+      </component>
+      <scrollpane id="3aa35" binding="scrollpane1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="44ac2" class="javax.swing.JTable" binding="table1">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="f5885" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Arial Rounded MT Bold" size="14"/>
+          <model>
+            <item value=""/>
+            <item value="学生"/>
+            <item value="教师"/>
+          </model>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
